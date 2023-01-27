@@ -9,7 +9,16 @@ import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
 public class Berry {
     public Integer id;
     public String name;
-    public Integer growthTime;
+
+    public Integer getGrowth_time() {
+        return growth_time;
+    }
+
+    public void setGrowth_time(Integer growth_time) {
+        this.growth_time = growth_time;
+    }
+
+    public Integer growth_time;
     public Integer maxHarvest;
     public Integer naturalGiftPower;
     public Integer size;
@@ -38,13 +47,13 @@ public class Berry {
         this.name = name;
     }
 
-    public Integer getGrowthTime() {
-        return growthTime;
-    }
-
-    public void setGrowthTime(Integer growthTime) {
-        this.growthTime = growthTime;
-    }
+//    public Integer getGrowthTime() {
+//        return growthTime;
+//    }
+//
+//    public void setGrowthTime(Integer growthTime) {
+//        this.growthTime = growthTime;
+//    }
 
     public Integer getMaxHarvest() {
         return maxHarvest;

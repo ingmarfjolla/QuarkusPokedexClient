@@ -8,12 +8,10 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 
-@Path("/")
 @RegisterRestClient(configKey="pokemon-api")
-@ApplicationScoped
+@Path("/api/v2")
 public interface PokeRestClientBlocking {
-
     @GET
-    @Path("/berries/{id}")
+    @Path("/berry/{id}")
     Berry getBerryById(@PathParam("id") Integer id);
 }
