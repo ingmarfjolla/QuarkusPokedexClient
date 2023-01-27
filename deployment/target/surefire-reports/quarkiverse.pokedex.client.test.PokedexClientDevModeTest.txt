@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: quarkiverse.pokedex.client.test.PokedexClientDevModeTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.101 s <<< FAILURE! - in quarkiverse.pokedex.client.test.PokedexClientDevModeTest
-quarkiverse.pokedex.client.test.PokedexClientDevModeTest.writeYourOwnDevModeTest  Time elapsed: 3.071 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.268 s <<< FAILURE! - in quarkiverse.pokedex.client.test.PokedexClientDevModeTest
+quarkiverse.pokedex.client.test.PokedexClientDevModeTest.writeYourOwnDevModeTest  Time elapsed: 3.234 s  <<< ERROR!
 java.lang.RuntimeException: 
 io.quarkus.builder.BuildException: Build failure: Build failed due to errors
 	[error]: Build step io.quarkus.arc.deployment.ArcProcessor#validate threw an exception: javax.enterprise.inject.spi.DeploymentException: javax.enterprise.inject.UnsatisfiedResolutionException: Unsatisfied dependency for type quarkiverse.pokedex.client.runtime.rest.PokeRestClientBlocking and qualifiers [@RestClient]
