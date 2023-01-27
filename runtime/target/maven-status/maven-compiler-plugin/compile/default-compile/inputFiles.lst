@@ -1,0 +1,14 @@
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/models/berries/Berry.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/models/Type.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/models/common/Language.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/models/berries/BerryFirmness.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/models/Pokedex.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/models/Item.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/models/contests/ContestName.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/models/common/Name.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/models/berries/BerryFlavorMap.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/models/common/NamedApiResource.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/PokeClient.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/models/contests/ContestType.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/models/berries/BerryFlavor.java
+/home/ifjolla/Documents/QuarkusExtensions/Pokedex/pokedex-client/runtime/src/main/java/quarkiverse/pokedex/client/runtime/rest/PokeRestClientBlocking.java

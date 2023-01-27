@@ -9,6 +9,7 @@
   <name>Pokedex Client - Parent</name>
   <modules>
     <module>deployment</module>
+    <module>integration-tests</module>
     <module>runtime</module>
   </modules>
   <properties>

@@ -16,17 +16,29 @@
 */
 package quarkiverse.pokedex.client.it;
 
+import quarkiverse.pokedex.client.runtime.PokeClient;
+import quarkiverse.pokedex.client.runtime.models.berries.Berry;
+
 import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 
 @Path("/pokedex-client")
 @ApplicationScoped
 public class PokedexClientResource {
     // add some rest methods here
-
+    @Inject
+    PokeClient pokeClient;
     @GET
     public String hello() {
         return "Hello pokedex-client";
+    }
+
+    @GET
+    @Path("berry/{id}")
+    public Berry getBerryById(@PathParam("id") Integer id){
+        return pokeClient.getBerryById(id);
     }
 }
