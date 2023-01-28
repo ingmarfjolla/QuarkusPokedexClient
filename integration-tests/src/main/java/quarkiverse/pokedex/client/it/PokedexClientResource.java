@@ -16,16 +16,20 @@
 */
 package quarkiverse.pokedex.client.it;
 
+import io.smallrye.mutiny.Uni;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 import quarkiverse.pokedex.client.runtime.PokeClient;
 import quarkiverse.pokedex.client.runtime.PokeClientGraphQL;
+import quarkiverse.pokedex.client.runtime.ReactivePokeClient;
 import quarkiverse.pokedex.client.runtime.models.berries.Berry;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
+import javax.json.JsonObject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
+import java.util.List;
 
 @Path("/")
 @ApplicationScoped
@@ -35,6 +39,8 @@ public class PokedexClientResource {
     PokeClient pokeClient;
     @Inject
     PokeClientGraphQL graphQL;
+    @Inject
+    ReactivePokeClient reactivePokeClient;
     @GET
     @Path("berry/{id}")
     public Berry getBerryById(@PathParam("id") Integer id){
@@ -42,8 +48,19 @@ public class PokedexClientResource {
     }
 
     @GET
+    @Path("reactiveberry/{id}")
+    public Uni<Berry> getBerryByID(@PathParam("id") Integer id){
+        return reactivePokeClient.getBerryById(id);
+    }
+
+    @GET
     @Path("berriez/")
-    public Berry getBerries(){
+    public JsonObject getBerries() throws Exception {
         return graphQL.getBerries();
+    }
+    @GET
+    @Path("graphql/{id}")
+    public JsonObject getBerryByIDZ(@PathParam("id") Integer id) throws Exception {
+        return graphQL.getBerryById(id);
     }
 }

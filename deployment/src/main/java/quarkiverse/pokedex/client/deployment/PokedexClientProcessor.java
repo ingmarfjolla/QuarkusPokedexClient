@@ -6,8 +6,7 @@ import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.deployment.builditem.FeatureBuildItem;
 import quarkiverse.pokedex.client.runtime.PokeClient;
 import quarkiverse.pokedex.client.runtime.PokeClientGraphQL;
-import quarkiverse.pokedex.client.runtime.graphql.GraqphQLClient;
-import quarkiverse.pokedex.client.runtime.rest.PokeRestClientBlocking;
+import quarkiverse.pokedex.client.runtime.ReactivePokeClient;
 
 class PokedexClientProcessor {
 
@@ -21,8 +20,7 @@ class PokedexClientProcessor {
     @BuildStep
     public void produceClasses(BuildProducer<AdditionalBeanBuildItem> additionalBeanProducer){
         additionalBeanProducer.produce(AdditionalBeanBuildItem.unremovableOf(PokeClient.class));
-        additionalBeanProducer.produce(AdditionalBeanBuildItem.unremovableOf(PokeRestClientBlocking.class));
         additionalBeanProducer.produce(AdditionalBeanBuildItem.unremovableOf(PokeClientGraphQL.class));
-        additionalBeanProducer.produce(AdditionalBeanBuildItem.unremovableOf(GraqphQLClient.class));
+        additionalBeanProducer.produce(AdditionalBeanBuildItem.unremovableOf(ReactivePokeClient.class));
     }
 }
