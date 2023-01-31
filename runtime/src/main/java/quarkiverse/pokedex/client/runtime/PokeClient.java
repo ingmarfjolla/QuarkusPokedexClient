@@ -1,5 +1,6 @@
 package quarkiverse.pokedex.client.runtime;
 
+import io.quarkus.cache.CacheResult;
 import org.eclipse.microprofile.rest.client.RestClientBuilder;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 import quarkiverse.pokedex.client.runtime.models.berries.Berry;
@@ -25,6 +26,7 @@ public class PokeClient {
 //                .build(PokeRestClientBlocking.class);
 //    }
 
+    @CacheResult(cacheName = "rest-client-cache")
     public Berry getBerryById(Integer id){
         return pokeRestClientBlocking.getBerryById(id);
     }

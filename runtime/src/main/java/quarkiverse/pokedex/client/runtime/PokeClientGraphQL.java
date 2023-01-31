@@ -17,6 +17,8 @@ import static io.smallrye.graphql.client.core.Argument.arg;
 import static io.smallrye.graphql.client.core.Argument.args;
 import static io.smallrye.graphql.client.core.Document.document;
 import static io.smallrye.graphql.client.core.Field.field;
+import static io.smallrye.graphql.client.core.InputObject.inputObject;
+import static io.smallrye.graphql.client.core.InputObjectField.prop;
 import static io.smallrye.graphql.client.core.Operation.operation;
 
 public class PokeClientGraphQL {
@@ -46,7 +48,9 @@ public class PokeClientGraphQL {
         Document query = document(
                 operation(
                         field("pokemon_v2_berry",
-                                args(arg("id",id)),
+                                args(arg("where",
+//                        inputObject(prop("id", prop("_eq", 10))))),
+                                        inputObject(prop("id", inputObject(prop("_eq", 1)))))),
                                 field("id"),
                                 field("item_id"),
                                 field("max_harvest"),
