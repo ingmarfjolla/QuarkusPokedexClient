@@ -16,6 +16,10 @@
 */
 package quarkiverse.pokedex.client.it;
 
+import io.quarkus.cache.Cache;
+import io.quarkus.cache.CacheName;
+import io.quarkus.cache.CaffeineCache;
+import io.quarkus.logging.Log;
 import io.smallrye.mutiny.Uni;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 import quarkiverse.pokedex.client.runtime.PokeClient;
@@ -35,6 +39,8 @@ import java.util.List;
 @ApplicationScoped
 public class PokedexClientResource {
     // add some rest methods here
+    @CacheName("rest-client-cache")
+    Cache cache;
     @Inject
     PokeClient pokeClient;
     @Inject
@@ -44,6 +50,8 @@ public class PokedexClientResource {
     @GET
     @Path("berry/{id}")
     public Berry getBerryById(@PathParam("id") Integer id){
+        var arr = cache.as(CaffeineCache.class).keySet();
+        Log.info(cache.as(CaffeineCache.class).keySet());
         return pokeClient.getBerryById(id);
     }
 
