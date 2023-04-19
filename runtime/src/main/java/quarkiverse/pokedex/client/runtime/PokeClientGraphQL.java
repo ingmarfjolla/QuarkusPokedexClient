@@ -7,8 +7,8 @@ import io.smallrye.graphql.client.core.Document;
 import io.smallrye.graphql.client.dynamic.api.DynamicGraphQLClient;
 import quarkiverse.pokedex.client.runtime.models.berries.Berry;
 
-import javax.inject.Inject;
-import javax.json.JsonObject;
+import jakarta.inject.Inject;
+import jakarta.json.JsonObject;
 
 import java.util.List;
 import java.util.concurrent.ExecutionException;

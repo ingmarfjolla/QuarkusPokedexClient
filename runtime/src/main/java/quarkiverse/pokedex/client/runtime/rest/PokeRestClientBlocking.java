@@ -4,10 +4,10 @@ import io.smallrye.mutiny.Uni;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 import quarkiverse.pokedex.client.runtime.models.berries.Berry;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.PathParam;
 
 @RegisterRestClient(configKey="pokemon-api")
 @Path("/api/v2")

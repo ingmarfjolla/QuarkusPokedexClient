@@ -6,10 +6,10 @@ import org.eclipse.microprofile.rest.client.inject.RestClient;
 import quarkiverse.pokedex.client.runtime.models.berries.Berry;
 import quarkiverse.pokedex.client.runtime.rest.PokeRestClientBlocking;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
 import java.net.URI;
 
 @ApplicationScoped
