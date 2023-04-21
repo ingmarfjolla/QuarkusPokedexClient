@@ -1,16 +1,15 @@
-package quarkiverse.pokedex.client.runtime.models.moves;
+package quarkiverse.pokedex.client.runtime.models.berries.berryfirmnesses;
 
-import quarkiverse.pokedex.client.runtime.models.common.Description;
+import quarkiverse.pokedex.client.runtime.models.berries.berries.Berry;
 import quarkiverse.pokedex.client.runtime.models.common.Name;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
 
 import java.util.List;
 
-public class MoveTarget {
+public class BerryFirmness {
     private Integer id;
     private String name;
-    private List<Description> descriptions;
-    private List<NamedApiResource<Move>> moves;
+    private List<NamedApiResource<Berry>> berries;
     private List<Name> names;
 
     public Integer getId() {
@@ -29,20 +28,12 @@ public class MoveTarget {
         this.name = name;
     }
 
-    public List<Description> getDescriptions() {
-        return descriptions;
+    public List<NamedApiResource<Berry>> getBerries() {
+        return berries;
     }
 
-    public void setDescriptions(List<Description> descriptions) {
-        this.descriptions = descriptions;
-    }
-
-    public List<NamedApiResource<Move>> getMoves() {
-        return moves;
-    }
-
-    public void setMoves(List<NamedApiResource<Move>> moves) {
-        this.moves = moves;
+    public void setBerries(List<NamedApiResource<Berry>> berries) {
+        this.berries = berries;
     }
 
     public List<Name> getNames() {

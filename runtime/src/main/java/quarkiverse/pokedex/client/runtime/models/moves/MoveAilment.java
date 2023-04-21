@@ -1,25 +1,14 @@
 package quarkiverse.pokedex.client.runtime.models.moves;
 
-import quarkiverse.pokedex.client.runtime.models.common.Description;
 import quarkiverse.pokedex.client.runtime.models.common.Name;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
 
 import java.util.List;
 
-public class MoveTarget {
-    private Integer id;
+public class MoveAilment {
     private String name;
-    private List<Description> descriptions;
     private List<NamedApiResource<Move>> moves;
     private List<Name> names;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
@@ -27,14 +16,6 @@ public class MoveTarget {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public List<Description> getDescriptions() {
-        return descriptions;
-    }
-
-    public void setDescriptions(List<Description> descriptions) {
-        this.descriptions = descriptions;
     }
 
     public List<NamedApiResource<Move>> getMoves() {

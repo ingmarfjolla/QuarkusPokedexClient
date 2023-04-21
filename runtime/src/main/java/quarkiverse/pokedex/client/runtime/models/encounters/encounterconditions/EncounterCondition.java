@@ -1,17 +1,16 @@
-package quarkiverse.pokedex.client.runtime.models.moves;
+package quarkiverse.pokedex.client.runtime.models.encounters.encounterconditions;
 
-import quarkiverse.pokedex.client.runtime.models.common.Description;
 import quarkiverse.pokedex.client.runtime.models.common.Name;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
+import quarkiverse.pokedex.client.runtime.models.encounters.encounterconditionvalues.EncounterConditionValue;
 
 import java.util.List;
 
-public class MoveTarget {
+public class EncounterCondition {
     private Integer id;
     private String name;
-    private List<Description> descriptions;
-    private List<NamedApiResource<Move>> moves;
     private List<Name> names;
+    private List<NamedApiResource<EncounterConditionValue>> values;
 
     public Integer getId() {
         return id;
@@ -29,27 +28,19 @@ public class MoveTarget {
         this.name = name;
     }
 
-    public List<Description> getDescriptions() {
-        return descriptions;
-    }
-
-    public void setDescriptions(List<Description> descriptions) {
-        this.descriptions = descriptions;
-    }
-
-    public List<NamedApiResource<Move>> getMoves() {
-        return moves;
-    }
-
-    public void setMoves(List<NamedApiResource<Move>> moves) {
-        this.moves = moves;
-    }
-
     public List<Name> getNames() {
         return names;
     }
 
     public void setNames(List<Name> names) {
         this.names = names;
+    }
+
+    public List<NamedApiResource<EncounterConditionValue>> getValues() {
+        return values;
+    }
+
+    public void setValues(List<NamedApiResource<EncounterConditionValue>> values) {
+        this.values = values;
     }
 }

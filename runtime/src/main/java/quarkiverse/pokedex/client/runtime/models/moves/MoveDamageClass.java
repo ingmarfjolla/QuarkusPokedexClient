@@ -6,7 +6,7 @@ import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
 
 import java.util.List;
 
-public class MoveTarget {
+public class MoveDamageClass {
     private Integer id;
     private String name;
     private List<Description> descriptions;

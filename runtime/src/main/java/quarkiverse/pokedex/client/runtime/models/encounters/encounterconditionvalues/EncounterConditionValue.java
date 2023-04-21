@@ -1,16 +1,15 @@
-package quarkiverse.pokedex.client.runtime.models.moves;
+package quarkiverse.pokedex.client.runtime.models.encounters.encounterconditionvalues;
 
-import quarkiverse.pokedex.client.runtime.models.common.Description;
 import quarkiverse.pokedex.client.runtime.models.common.Name;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
+import quarkiverse.pokedex.client.runtime.models.encounters.encounterconditions.EncounterCondition;
 
 import java.util.List;
 
-public class MoveTarget {
+public class EncounterConditionValue {
     private Integer id;
     private String name;
-    private List<Description> descriptions;
-    private List<NamedApiResource<Move>> moves;
+    private NamedApiResource<EncounterCondition> condition;
     private List<Name> names;
 
     public Integer getId() {
@@ -29,20 +28,12 @@ public class MoveTarget {
         this.name = name;
     }
 
-    public List<Description> getDescriptions() {
-        return descriptions;
+    public NamedApiResource<EncounterCondition> getCondition() {
+        return condition;
     }
 
-    public void setDescriptions(List<Description> descriptions) {
-        this.descriptions = descriptions;
-    }
-
-    public List<NamedApiResource<Move>> getMoves() {
-        return moves;
-    }
-
-    public void setMoves(List<NamedApiResource<Move>> moves) {
-        this.moves = moves;
+    public void setCondition(NamedApiResource<EncounterCondition> condition) {
+        this.condition = condition;
     }
 
     public List<Name> getNames() {

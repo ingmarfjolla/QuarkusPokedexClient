@@ -1,16 +1,11 @@
 package quarkiverse.pokedex.client.runtime;
 
 import io.quarkus.cache.CacheResult;
-import org.eclipse.microprofile.rest.client.RestClientBuilder;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
-import quarkiverse.pokedex.client.runtime.models.berries.Berry;
+import quarkiverse.pokedex.client.runtime.models.berries.berries.Berry;
 import quarkiverse.pokedex.client.runtime.rest.PokeRestClientBlocking;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.inject.Inject;
-import jakarta.ws.rs.GET;
-import jakarta.ws.rs.Path;
-import java.net.URI;
 
 @ApplicationScoped
 public class PokeClient {

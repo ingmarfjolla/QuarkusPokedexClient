@@ -1,7 +1,7 @@
 package quarkiverse.pokedex.client.runtime.models.locations;
 
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
-import quarkiverse.pokedex.client.runtime.models.encounters.EncounterMethod;
+import quarkiverse.pokedex.client.runtime.models.encounters.encountermethods.EncounterMethod;
 
 import java.util.List;
 
