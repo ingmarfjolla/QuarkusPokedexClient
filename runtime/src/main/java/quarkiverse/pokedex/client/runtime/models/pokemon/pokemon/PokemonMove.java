@@ -1,7 +1,9 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.pokemon;
 
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
-import quarkiverse.pokedex.client.runtime.models.moves.Move;
+import quarkiverse.pokedex.client.runtime.models.moves.moves.Move;
+
+import java.util.List;
 
 public class PokemonMove {
     private NamedApiResource<Move> move;

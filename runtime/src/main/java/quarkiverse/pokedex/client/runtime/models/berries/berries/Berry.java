@@ -3,7 +3,7 @@ import java.util.List;
 
 import quarkiverse.pokedex.client.runtime.models.berries.berryfirmnesses.BerryFirmness;
 import quarkiverse.pokedex.client.runtime.models.pokemon.types.Type;
-import quarkiverse.pokedex.client.runtime.models.Item;
+import quarkiverse.pokedex.client.runtime.models.items.item.Item;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
 
 

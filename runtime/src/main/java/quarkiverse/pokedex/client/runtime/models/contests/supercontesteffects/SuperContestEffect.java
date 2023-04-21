@@ -2,7 +2,7 @@ package quarkiverse.pokedex.client.runtime.models.contests.supercontesteffects;
 
 import quarkiverse.pokedex.client.runtime.models.common.FlavorText;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
-import quarkiverse.pokedex.client.runtime.models.moves.Move;
+import quarkiverse.pokedex.client.runtime.models.moves.moves.Move;
 
 import java.util.List;
 

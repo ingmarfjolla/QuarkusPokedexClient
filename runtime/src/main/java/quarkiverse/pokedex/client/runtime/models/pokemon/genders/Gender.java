@@ -1,5 +1,10 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.genders;
 
+import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
+import quarkiverse.pokedex.client.runtime.models.pokemon.pokemonspecies.PokemonSpecies;
+
+import java.util.List;
+
 public class Gender {
     private Integer id;
     private String name;

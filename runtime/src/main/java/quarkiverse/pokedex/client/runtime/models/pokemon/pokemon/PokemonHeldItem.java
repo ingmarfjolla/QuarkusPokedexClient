@@ -1,7 +1,9 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.pokemon;
 
-import quarkiverse.pokedex.client.runtime.models.Item;
+import quarkiverse.pokedex.client.runtime.models.items.item.Item;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
+
+import java.util.List;
 
 public class PokemonHeldItem {
     private NamedApiResource<Item> item;

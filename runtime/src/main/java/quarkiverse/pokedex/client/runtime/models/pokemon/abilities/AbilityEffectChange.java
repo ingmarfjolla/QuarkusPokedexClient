@@ -2,7 +2,7 @@ package quarkiverse.pokedex.client.runtime.models.pokemon.abilities;
 
 import quarkiverse.pokedex.client.runtime.models.common.Effect;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
-import quarkiverse.pokedex.client.runtime.models.games.version.VersionGroup;
+import quarkiverse.pokedex.client.runtime.models.games.versiongroups.VersionGroup;
 
 import java.util.List;
 

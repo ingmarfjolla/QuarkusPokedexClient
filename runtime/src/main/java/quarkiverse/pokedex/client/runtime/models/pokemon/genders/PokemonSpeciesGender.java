@@ -1,5 +1,8 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.genders;
 
+import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
+import quarkiverse.pokedex.client.runtime.models.pokemon.pokemonspecies.PokemonSpecies;
+
 public class PokemonSpeciesGender {
     private Integer rate;
     private NamedApiResource<PokemonSpecies> pokemonSpecies;

@@ -1,6 +1,8 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.pokemonshapes;
 
 import quarkiverse.pokedex.client.runtime.models.common.Name;
+import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
+import quarkiverse.pokedex.client.runtime.models.pokemon.pokemonspecies.PokemonSpecies;
 
 import java.util.List;
 

@@ -1,5 +1,10 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.pokemon;
 
+import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
+import quarkiverse.pokedex.client.runtime.models.common.VersionGameIndex;
+import quarkiverse.pokedex.client.runtime.models.pokemon.pokemonforms.PokemonForm;
+import quarkiverse.pokedex.client.runtime.models.pokemon.pokemonspecies.PokemonSpecies;
+
 import java.util.List;
 
 public class Pokemon {

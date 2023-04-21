@@ -1,12 +1,13 @@
 package quarkiverse.pokedex.client.runtime.models.games.generations;
 
-import quarkiverse.pokedex.client.runtime.models.games.version.VersionGroup;
+import quarkiverse.pokedex.client.runtime.models.games.versiongroups.VersionGroup;
+import quarkiverse.pokedex.client.runtime.models.pokemon.pokemonspecies.PokemonSpecies;
 import quarkiverse.pokedex.client.runtime.models.pokemon.types.Type;
 import quarkiverse.pokedex.client.runtime.models.pokemon.abilities.Ability;
 import quarkiverse.pokedex.client.runtime.models.common.Name;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
-import quarkiverse.pokedex.client.runtime.models.locations.Region;
-import quarkiverse.pokedex.client.runtime.models.moves.Move;
+import quarkiverse.pokedex.client.runtime.models.locations.regions.Region;
+import quarkiverse.pokedex.client.runtime.models.moves.moves.Move;
 
 import java.util.List;
 

@@ -1,6 +1,8 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.growthrates;
 
 import quarkiverse.pokedex.client.runtime.models.common.Description;
+import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
+import quarkiverse.pokedex.client.runtime.models.pokemon.pokemonspecies.PokemonSpecies;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.stats;
 
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
-import quarkiverse.pokedex.client.runtime.models.moves.Move;
+import quarkiverse.pokedex.client.runtime.models.moves.moves.Move;
 
 public class MoveStatAffect {
     private Integer change;

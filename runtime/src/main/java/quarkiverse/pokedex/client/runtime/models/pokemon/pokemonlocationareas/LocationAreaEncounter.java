@@ -1,7 +1,8 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.pokemonlocationareas;
 
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
-import quarkiverse.pokedex.client.runtime.models.locations.LocationArea;
+import quarkiverse.pokedex.client.runtime.models.common.VersionEncounterDetail;
+import quarkiverse.pokedex.client.runtime.models.locations.locationareas.LocationArea;
 
 import java.util.List;
 

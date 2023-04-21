@@ -3,7 +3,7 @@ package quarkiverse.pokedex.client.runtime.models.pokemon.stats;
 import quarkiverse.pokedex.client.runtime.models.common.ApiResource;
 import quarkiverse.pokedex.client.runtime.models.common.Name;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
-import quarkiverse.pokedex.client.runtime.models.moves.MoveDamageClass;
+import quarkiverse.pokedex.client.runtime.models.moves.movedamageclasses.MoveDamageClass;
 import quarkiverse.pokedex.client.runtime.models.pokemon.characteristics.Characteristic;
 
 import java.util.List;

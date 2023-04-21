@@ -1,6 +1,7 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.natures;
 
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
+import quarkiverse.pokedex.client.runtime.models.moves.movebattlestyles.MoveBattleStyle;
 
 public class MoveBattleStylePreference {
     private Integer lowHpPreference;

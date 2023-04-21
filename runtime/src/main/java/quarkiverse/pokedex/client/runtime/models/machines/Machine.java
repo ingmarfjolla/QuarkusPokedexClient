@@ -1,9 +1,9 @@
 package quarkiverse.pokedex.client.runtime.models.machines;
 
-import quarkiverse.pokedex.client.runtime.models.Item;
+import quarkiverse.pokedex.client.runtime.models.items.item.Item;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
-import quarkiverse.pokedex.client.runtime.models.games.version.VersionGroup;
-import quarkiverse.pokedex.client.runtime.models.moves.Move;
+import quarkiverse.pokedex.client.runtime.models.games.versiongroups.VersionGroup;
+import quarkiverse.pokedex.client.runtime.models.moves.moves.Move;
 
 public class Machine {
     private Integer id;

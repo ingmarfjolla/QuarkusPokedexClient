@@ -1,6 +1,7 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.pokemonspecies;
 
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
+import quarkiverse.pokedex.client.runtime.models.locations.palparkareas.PalParkArea;
 
 public class PalParkEncounterArea {
     private Integer baseScore;

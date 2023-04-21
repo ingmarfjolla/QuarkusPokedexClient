@@ -1,9 +1,7 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.pokemonspecies;
 
-import quarkiverse.pokedex.client.runtime.models.common.Description;
-import quarkiverse.pokedex.client.runtime.models.common.FlavorText;
-import quarkiverse.pokedex.client.runtime.models.common.Name;
-import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
+import quarkiverse.pokedex.client.runtime.models.common.*;
+import quarkiverse.pokedex.client.runtime.models.evolution.evolutionchains.EvolutionChain;
 import quarkiverse.pokedex.client.runtime.models.games.generations.Generation;
 import quarkiverse.pokedex.client.runtime.models.pokemon.egggroups.EggGroup;
 import quarkiverse.pokedex.client.runtime.models.pokemon.growthrates.GrowthRate;

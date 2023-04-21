@@ -2,8 +2,9 @@ package quarkiverse.pokedex.client.runtime.models.pokemon.pokemonforms;
 
 import quarkiverse.pokedex.client.runtime.models.common.Name;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
-import quarkiverse.pokedex.client.runtime.models.games.version.VersionGroup;
+import quarkiverse.pokedex.client.runtime.models.games.versiongroups.VersionGroup;
 import quarkiverse.pokedex.client.runtime.models.pokemon.pokemon.Pokemon;
+import quarkiverse.pokedex.client.runtime.models.pokemon.pokemon.PokemonFormType;
 
 import java.util.List;
 
@@ -14,9 +15,12 @@ public class PokemonForm {
     private Integer formOrder;
     private Boolean isDefault;
     private Boolean isBattleOnly;
+    private Boolean isMega;
     private String formName;
     private NamedApiResource<Pokemon> pokemon;
+    private List<PokemonFormType> types;
     private PokemonFormSprites sprites;
+
     private NamedApiResource<VersionGroup> versionGroup;
     private List<Name> names;
     private List<Name> formNames;
@@ -67,6 +71,22 @@ public class PokemonForm {
 
     public void setBattleOnly(Boolean battleOnly) {
         isBattleOnly = battleOnly;
+    }
+
+    public Boolean getMega() {
+        return isMega;
+    }
+
+    public void setMega(Boolean mega) {
+        isMega = mega;
+    }
+
+    public List<PokemonFormType> getTypes() {
+        return types;
+    }
+
+    public void setTypes(List<PokemonFormType> types) {
+        this.types = types;
     }
 
     public String getFormName() {

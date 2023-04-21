@@ -1,10 +1,11 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.types;
 
+import quarkiverse.pokedex.client.runtime.models.common.GenerationGameIndex;
 import quarkiverse.pokedex.client.runtime.models.common.Name;
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
 import quarkiverse.pokedex.client.runtime.models.games.generations.Generation;
-import quarkiverse.pokedex.client.runtime.models.moves.Move;
-import quarkiverse.pokedex.client.runtime.models.moves.MoveDamageClass;
+import quarkiverse.pokedex.client.runtime.models.moves.moves.Move;
+import quarkiverse.pokedex.client.runtime.models.moves.movedamageclasses.MoveDamageClass;
 
 import java.util.List;
 

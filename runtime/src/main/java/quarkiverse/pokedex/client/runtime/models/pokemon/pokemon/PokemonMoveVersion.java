@@ -1,7 +1,8 @@
 package quarkiverse.pokedex.client.runtime.models.pokemon.pokemon;
 
 import quarkiverse.pokedex.client.runtime.models.common.NamedApiResource;
-import quarkiverse.pokedex.client.runtime.models.games.version.VersionGroup;
+import quarkiverse.pokedex.client.runtime.models.games.versiongroups.VersionGroup;
+import quarkiverse.pokedex.client.runtime.models.moves.movelearnmethods.MoveLearnMethod;
 
 public class PokemonMoveVersion {
     private NamedApiResource<MoveLearnMethod> moveLearnMethod;
