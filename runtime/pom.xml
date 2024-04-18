@@ -31,6 +31,12 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-rest-client-reactive-jackson</artifactId>
     </dependency>
+    <dependency>
+      <groupId>quarkiverse.pokedex-client</groupId>
+      <artifactId>pokedex-client-generated-blocking</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
   </dependencies>
   <build>
     <plugins>

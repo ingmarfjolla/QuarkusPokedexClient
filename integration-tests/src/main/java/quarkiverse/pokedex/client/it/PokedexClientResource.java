@@ -21,6 +21,7 @@ import io.quarkus.cache.CacheName;
 import io.quarkus.cache.CaffeineCache;
 import io.quarkus.logging.Log;
 import io.smallrye.mutiny.Uni;
+import org.eclipse.microprofile.rest.client.inject.RestClient;
 import quarkiverse.pokedex.client.runtime.PokeClient;
 import quarkiverse.pokedex.client.runtime.PokeClientGraphQL;
 import quarkiverse.pokedex.client.runtime.ReactivePokeClient;
