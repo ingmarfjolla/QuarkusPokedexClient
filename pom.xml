@@ -8,6 +8,7 @@
   <packaging>pom</packaging>
   <name>Pokedex Client - Parent</name>
   <modules>
+    <module>generated-rest-client</module>
     <module>deployment</module>
     <module>integration-tests</module>
     <module>runtime</module>
@@ -15,10 +16,10 @@
   <properties>
     <compiler-plugin.version>3.10.1</compiler-plugin.version>
     <failsafe-plugin.version>${surefire-plugin.version}</failsafe-plugin.version>
-    <maven.compiler.release>11</maven.compiler.release>
+    <maven.compiler.release>17</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <quarkus.version>3.0.0.CR2</quarkus.version>
+    <quarkus.version>3.9.3</quarkus.version>
     <surefire-plugin.version>3.0.0-M7</surefire-plugin.version>
   </properties>
   <dependencyManagement>
